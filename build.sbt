@@ -12,6 +12,6 @@ resolvers ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "org.seleniumhq.selenium" % "selenium-java" % "2.7.0"
+  "org.seleniumhq.selenium" % "selenium-java" % "2.7.0",
+  "org.scalatest" %% "scalatest" % "1.6.1" % "test"
 )
-
